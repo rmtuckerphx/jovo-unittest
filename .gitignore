@@ -1,0 +1,10 @@
+node_modules/
+.idea/
+.tar.gz
+.fpr
+npm-debug.log
+[._]*.sw[a-p]
+app/.envrc
+.nyc_output
+db/tests/
+coverage/

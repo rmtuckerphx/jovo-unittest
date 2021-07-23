@@ -1,0 +1,22 @@
+{
+  "name": "test-app",
+  "version": "1.0.0",
+  "description": "Test App",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4",
+    "jovo-db-filedb": "^3.5.1",
+    "jovo-db-mongodb": "^3.5.1",
+    "jovo-framework": "^3.5.2",
+    "jovo-platform-alexa": "^3.5.4",
+    "jovo-plugin-debugger": "^3.5.1",
+    "lodash.get": "^4.4.2",
+    "lodash.sample": "^4.2.1",
+    "url-join": "^4.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node ./src/index.js",
+    "local": "jovo run --port 8080"
+  }
+}

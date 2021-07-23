@@ -1,0 +1,18 @@
+{
+  "private": true,
+  "name": "jovo-unittest",
+  "version": "1.0.0",
+  "build": "",
+  "description": "Jovo Unit Test Sample",
+  "scripts": {},
+  "devDependencies": {
+    "chai": "^4.3.0",
+    "jovo-core": "^3.5.1",
+    "jovo-framework": "^3.5.2",
+    "jovo-platform-alexa": "^3.5.4",
+    "mocha": "^5.2.0",
+    "nock": "^13.1.1",
+    "nyc": "^15.1.0"
+  },
+  "dependencies": {}
+}
