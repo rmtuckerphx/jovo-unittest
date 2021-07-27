@@ -28,6 +28,7 @@ function getApp() {
     const app = new App(appConfig);
 
     app.use(
+        // 1 new here
         new Alexa(),
     );
 
@@ -126,4 +127,5 @@ function getApp() {
 
 module.exports = {
     getApp,
+    Alexa,
 };

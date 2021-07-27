@@ -6,7 +6,9 @@ const appFactory = require('../app/src/appFactory');
 // const mockHelpers = require('./mockHelpers');
 
 describe(`TestIntent`, function () {
-    const platform = new Alexa();
+    // 2 new here
+    const platform = new appFactory.Alexa();
+    
     const testSuite = platform.makeTestSuite();
     let app;
     let conversation;
